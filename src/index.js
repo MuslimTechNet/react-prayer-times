@@ -54,7 +54,8 @@ PrayerTimes.propTypes = {
  dhuhr:PropTypes.string,
  asr:PropTypes.string,
  maghrib:PropTypes.string,
- isha:PropTypes.string
+ isha:PropTypes.string,
+ jumuah:PropTypes.string
 }
 
 export default PrayerTimes;
