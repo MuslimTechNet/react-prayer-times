@@ -1,0 +1,30 @@
+{
+  "name": "react-prayer-times-package-demo",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -p tsconfig.json && vite build",
+    "test": "vitest run",
+    "format": "prettier --write index.html package.json tsconfig.json vite.config.ts 'src/**/*.{ts,tsx,css}'"
+  },
+  "dependencies": {
+    "@nickmanning214/tour-guide": "^0.2.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "effect": "^3.21.2",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "vite": "^8.0.14"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "jsdom": "^27.4.0",
+    "prettier": "^3.8.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.7"
+  }
+}
